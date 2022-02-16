@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+header div h1 {
+  
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: "Courier New", sans-serif;
+  font-weight: 50;
+
+}
+
+header div {
+ padding: 20px;
+ text-align: center;
+}
+
+section div h2 {
+
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: "Courier New", sans-serif;
+  font-weight: 50;
+  padding: 20px;
+}
+
+section div p {
+  background-color: black;
+  color: white;
+  text-align: left;
+  font-family: "Courier New", sans-serif;
+}
+
+ul {
+  background-color: black;
+  color: white;
+  text-align: left;
+  font-family: "Courier New", sans-serif;
+  padding: 20px;
+}
+
+hr {
+  color: white;
+  border-color: white;
+  width: 250px;
+  
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.box-center {
+  width: 500px;
+  margin: auto;
+}
+
+nav {
+  font-family: "Courier New", sans-serif;
+  text-align: right;
+  position: sticky;
+  font-size: 10px;
+
+}
+
+footer {
+  font-family: "Courier New", sans-serif;
+  text-align: center;
+  font-size: 10px;
+  padding: 20px;
+}
+
+a:link {color: white;}
+a:visited {color: gray;}
+a:hover {color: dimgray;}
+a:active {color: ghostwhite;}
