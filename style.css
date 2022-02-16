@@ -2,6 +2,8 @@
   box-sizing: border-box;
 }
 
+/* header styling */
+
 header div h1 {
   
   background-color: black;
@@ -16,6 +18,8 @@ header div {
  padding: 20px;
  text-align: center;
 }
+
+/* Main content section */
 
 section div h2 {
 
@@ -59,6 +63,7 @@ body {
   margin: auto;
 }
 
+/* NAV links and style */
 nav {
   font-family: "Courier New", sans-serif;
   text-align: right;
@@ -67,6 +72,13 @@ nav {
 
 }
 
+a:link {color: white;}
+a:visited {color: gray;}
+a:hover {color: dimgray;}
+a:active {color: ghostwhite;}
+
+/* Footer */
+
 footer {
   font-family: "Courier New", sans-serif;
   text-align: center;
@@ -74,7 +86,3 @@ footer {
   padding: 20px;
 }
 
-a:link {color: white;}
-a:visited {color: gray;}
-a:hover {color: dimgray;}
-a:active {color: ghostwhite;}
